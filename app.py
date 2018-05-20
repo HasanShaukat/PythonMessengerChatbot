@@ -28,7 +28,7 @@ class Messenger(BaseMessenger):
     def postback(self, message):
         payload = message['postback']['payload']
 
-        if 'start' in payload:
+        #if 'start' in payload:
             quick_reply_1 = quick_replies.QuickReply(title='Location', content_type='location')
             quick_replies_set = quick_replies.QuickReplies(quick_replies=[
                 quick_reply_1
