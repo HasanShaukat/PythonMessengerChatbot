@@ -6,7 +6,7 @@ idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-fbmessenger==5.1.0
+pymessenger==0.0.7.0
 requests==2.18.4
 requests-toolbelt==0.8.0
 six==1.11.0
